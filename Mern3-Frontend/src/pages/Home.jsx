@@ -1,7 +1,8 @@
 import axios from "axios"
-import Card from "../components/card"
+import Card from "../components/Card"
 import Navbar from "../components/navbar"
 import { useEffect, useState } from "react";
+
 
 function Home(){
     const [blogs, setBlogs] = useState([])
