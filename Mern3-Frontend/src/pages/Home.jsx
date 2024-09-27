@@ -19,9 +19,6 @@ function Home() {
     return (
         <>
             <Navbar />
-            <button className="h-15 w-60 bg-red-900 text-yellow-300 border-4">
-                <Link to='/blog/create'>Create Blog</Link>
-            </button>
             <div className="flex flex-wrap">
                 {
                     blogs.map((blog) => {
